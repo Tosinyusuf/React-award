@@ -1,0 +1,61 @@
+.lasts {
+    border-top: 2px solid black;
+    display: flex;
+    
+    margin-top: 80px;
+    position: fixed;
+    background-color: white;
+    bottom: 0;
+    width: 100%;   
+}
+/* .bag {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+} */
+.bag, .home, .account {
+  text-align: center;
+  cursor: pointer;
+  padding-top: 10px;
+  padding-left: 5px;
+ 
+}
+
+.pc {
+    width: 70%;
+    text-align: center;      
+}
+p {
+  text-decoration: none;
+}
+.pp {
+  color: gray;
+  width: 70%;
+  text-decoration: none;
+}
+.line {
+  border-color: 21px solid red;
+}
+.numberings {
+  background-color: #0ac6fc;
+  color: white;
+  text-align: center;
+  padding-top: 5px;
+  border-radius: 50px;
+  width: 30px;
+  height: 30px;
+  /* margin-left: 10px; */
+}
+.headers {
+    display: flex;
+    align-items: center;
+    margin-bottom: 30px;
+    position: fixed;
+    bottom: 20px;
+    left: 240px;
+
+}
+@media (min-width: 700px) {
+  .lasts{
+     display: none;
+  }
+}

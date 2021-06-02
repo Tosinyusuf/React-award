@@ -1,0 +1,29 @@
+.mobile {
+    display: none;
+}
+p {
+    color: black;
+}
+.logo {
+    width: 10%;
+}
+    
+img {
+    width: 100%;
+}
+.Bt {
+    display: flex;
+}
+.bt1 {
+    margin-left: 20px;
+}
+@media (min-width: 700px) {
+    .Bt{
+        display: flex;
+        align-items: center;
+        height: 70px;
+    }
+    .logo {
+        width: 4%;
+    }
+}

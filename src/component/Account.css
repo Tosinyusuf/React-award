@@ -1,0 +1,24 @@
+.head {
+    width: 20%;
+    margin: 0 auto;
+    margin-top: 20px;
+    margin-bottom: 35px;
+}
+h4 {
+    margin-bottom: 10px;
+}
+.pil, .pip {
+    margin-bottom: 7px;
+}
+.no {
+    display: flex;
+    align-items: center;
+    margin-bottom: 30px;
+}
+.verify, .verification {
+    text-decoration: none;
+    background-color: yellow;
+    text-align: center;
+    padding: 10px;
+    
+}

@@ -1,0 +1,17 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  text-decoration: none;
+}
+/* body {
+
+} */
+.container {
+  width: 94%;
+  margin: 0 auto;
+
+}
+ul {
+  list-style-type: none;
+}

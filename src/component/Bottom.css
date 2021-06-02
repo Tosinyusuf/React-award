@@ -1,0 +1,85 @@
+.bb {
+    background-color: #2766cc;
+    padding: 17px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.pack {
+    display: grid;
+    grid-auto-flow: column;
+    gap: 1px;
+    align-items: center;
+    justify-items: center;
+    /* display: grid;
+    grid-template-columns: auto auto auto;
+    gap: 30px;
+    margin-left: 40px; */
+}
+.p {
+    color: white;
+    text-align: center;
+    width: 70%;
+}
+.pi {
+    color: white;
+    text-align: center;
+    width: 70%;
+    position: relative;
+    width: 10px;
+}
+ .supp {
+    width: 40%;
+    text-align: center;
+    position: relative;
+    right: -12px;
+    /* margin-left: 40px; */
+}
+.mark {
+    width: 40%;
+    text-align: center;
+    position: relative;
+    right: -12px;
+}
+.car {
+    width: 40%;
+    text-align: center;
+    position: relative;
+    right: 10px;
+}
+.second {
+    margin-top: -10px;
+}
+.third {
+    position: relative;
+    right: -40px;
+}
+
+@media (min-width: 700px) {
+    .bb {
+        width: 100%;
+    }
+    .pack {
+        /* height: 35%; */
+        /* display: grid;
+        grid-template-columns: 1fr 2fr 2fr;
+        justify-content: center;
+        align-items: center;
+        gap: -20px; */
+         display: grid;
+        grid-auto-flow: column;
+        gap: 1px;
+        align-items: center;
+        justify-items: center;
+        /* width: 50%;
+        margin-left: 30px; */
+        /* margin: 0 auto; */
+    }
+    .bb {
+        margin-top: 40px;
+    }
+    .car, .mark, .supp {
+        width: 40%;
+    }
+
+}

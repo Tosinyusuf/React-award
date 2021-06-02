@@ -1,0 +1,134 @@
+.beauty-health, .womens-shoe, .mens-shoe, .Womens-Accessories, .Bags, .men-accessories, .view {
+    border: none;
+    display: block;
+    margin-bottom:7px;
+    width: 100%;
+    background-color: black;
+    padding: 6px;
+    color: white;
+    cursor: pointer;
+    
+}
+.view {
+    color: #2766cc;
+}
+.beauty-health:hover, .womens-shoe:hover, .mens-shoe:hover, .Womens-Accessories:hover, .Bags:hover, .men-accessories:hover, .view:hover {
+    border-right: 2px solid #2766cc;
+    background-color: #f0f0f0;
+    color: #2766cc;
+    /* margin-left: 2px; */
+    
+}
+.details {
+    display: none;
+}
+.nav-menu {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    position: absolute;
+    top: 80px;
+    left: -100%;
+    opacity: 1;
+    transition: all 0.5s ease;
+  }
+
+  .nav-menu.active {
+    background: #242222;
+    left: 0;
+    opacity: 1;
+    transition: all 0.5s ease;
+    z-index: 1;
+  }
+  .fa-times {
+    color: #fff;
+    font-size: 2rem;
+  }
+  .navmenu {
+    display: block;
+    position: absolute;
+    top: 0;
+    right: 0;
+    transform: translate(-100%, 60%);
+    font-size: 1.8rem;
+    cursor: pointer;
+  }
+  input {
+    width: 100%;
+    border-top-left-radius: 17px;
+    border-bottom-left-radius: 17px; 
+    padding: 10px;
+    margin-bottom: 4px;
+    border: none;
+    background-color: #f0f0f0;
+    color: gray;
+
+    padding-right: 40px;
+}
+.form {
+    /* position: relative; */
+    display: flex;
+    margin-bottom: 30px;
+}
+input {
+    flex: 10;
+}
+.searchicon {
+    /* position: absolute; */
+    
+    /* padding: 3px; */
+    border-top-right-radius: 17px;
+    border-bottom-right-radius: 17px;
+    /* right: 2px; */
+    border: none;
+    flex: 1;
+    /* bottom: 5px; */
+}
+.se {
+    color: #2766cc;
+}
+
+  @media (min-width: 700px) {
+    .navmenu{
+      display: none;
+    }
+    .nav-menu {  
+      width: 100%;
+      position: initial;    
+      margin-top: 40px;
+    }
+    .beauty-health, .womens-shoe, .mens-shoe, .Womens-Accessories, .Bags, .men-accessories, .view {
+      border: none;
+      /* display: block; */
+      margin-bottom:7px;
+      width: 100%;
+      background-color: white;
+      padding: 6px;
+      color: #2766cc;   
+    }
+    .details {
+      display: flex;
+    }
+    .body12 {
+      display: grid;
+      grid-template-columns: 4fr 10fr 4fr;
+      gap: 30px;
+    }
+    .inputwrapper{
+      margin-left: 27%;
+      margin-right:  27%;
+  }
+  .noresult {
+      margin: 0 auto;
+      width: 50%;
+      text-align: center;
+  }
+  .nos {
+      display: block;
+      font-weight: bolder;
+  }
+  .click {
+      font: small;
+  }
+ 
+}
