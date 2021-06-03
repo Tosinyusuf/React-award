@@ -1,4 +1,4 @@
-Movie app with react js (context api, react router,hooks)
+E commerce app with react js (context api, react router,hooks)
 
 To start app in your local server:
 
