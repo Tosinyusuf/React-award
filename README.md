@@ -12,4 +12,4 @@ go to your command promp or terminal and run npm install
 
 then run npm start.
 
-view live demo @ https://tosinyusuf.github.io/AWARD/. happy coding
+view live demo @https://tosinyusuf.github.io/new-soko/#/. happy coding
