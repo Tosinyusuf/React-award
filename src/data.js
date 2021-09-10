@@ -3,7 +3,7 @@ export  const data = [
     {
         id:1,
         cat:'Beauty-Health',
-        img: 'https://soko.fra1.digitaloceanspaces.com/TestImg/46e5d73f-bcdd-42cf-8ec4-9e13c808a075.jpg',
+        img: '../images/logo.jpg',
         title:'Aloe lipstick & balm',
         delivery:  44000,
         price: 20000,
